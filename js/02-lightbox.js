@@ -18,7 +18,8 @@ return galleryItems
       src="${image.preview}"
       alt="${image.description}" />
    </a>
-</li>`).join("");
+</li>`)
+    .join("");
 };
 
 function onImgClick(evt) {
